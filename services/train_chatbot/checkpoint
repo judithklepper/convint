@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:\\Users\\judit\\OneDrive\\Documents\\Xomnia\\Politie\\microservices\\services\\train_chatbot\\model.tflearn"
+all_model_checkpoint_paths: "C:\\Users\\judit\\OneDrive\\Documents\\Xomnia\\Politie\\microservices\\services\\train_chatbot\\model.tflearn"

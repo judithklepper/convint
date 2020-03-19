@@ -1,0 +1,4 @@
+[
+  "tests/ingredients_test.py::TestIngredientsService::test_all_recipe_records",
+  "tests/ingredients_test.py::TestIngredientsService::test_not_found"
+]

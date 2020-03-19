@@ -1,0 +1,14 @@
+{
+  "egg": {
+    "title": "eggs",
+    "quantity in stock": 6,
+    "unit": "pieces",
+    "id": "egg"
+  },
+  "milk": {
+    "title": "milk",
+    "quantity in stock": 200,
+    "unit": "milliliters",
+    "id": "milk"
+  }
+}
