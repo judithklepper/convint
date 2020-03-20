@@ -1,4 +1,4 @@
-
+## extract intent start (maar eerst Spacy???)
 def get_numerics(textnum, numwords={}):
     #code Bas om nummers te extracten
     if not numwords:
@@ -33,10 +33,12 @@ def which_course(request):
     dessert = ['dessert', 'desert', 'sweet treat', 'pastry', 'pudding', 'sweet course']
 
     request_split = request.split()
-    course =
+    course = ""
     for w in request_split:
         if w not in first_course or main_course or dessert:
-            course
+            course = "Unknown"
+
+        #        @...TODO
 
 
 def amount_of_persons(request):

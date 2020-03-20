@@ -31,8 +31,13 @@ def hello_ingredients():
         }
     })
 
+@app.route("/stocks", methods=['GET'])
+def stock_all():
+    return nice_json(stocks)
+
+
 @app.route("/stocks/<stockid>", methods=['GET'])
-def movie_info(stockid):
+def stock(stockid):
     if stockid not in stocks:
         raise NotFound
 
@@ -40,11 +45,6 @@ def movie_info(stockid):
     result["uri"] = "/stocks/{}".format(stockid)
 
     return nice_json(result)
-
-
-@app.route("/stocks", methods=['GET'])
-def movie_record():
-    return nice_json(stocks)
 
 
 if __name__ == "__main__":

@@ -53,6 +53,7 @@ def recipe_record(recipename):
 
 @app.route("/query/<naam>", methods=['GET'])
 def query(naam):
+    #ik staar me blind op waarom dit niet werkt
     zoek1 = {k1: v1 for k1, v1 in recipes.items()}
     zoek2 = {k2: v2 for k2, v2 in zoek1.items() if naam in v2['ingredients']}
     return nice_json(zoek2)
