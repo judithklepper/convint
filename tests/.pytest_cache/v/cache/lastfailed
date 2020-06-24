@@ -1,0 +1,4 @@
+{
+  "ingredients_test.py::TestIngredientsService::test_all_recipe_records": true,
+  "ingredients_test.py::TestIngredientsService::test_not_found": true
+}

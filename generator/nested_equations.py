@@ -95,22 +95,24 @@ def nested_to_prefix(tree):
 
 def gen_output():
     L = []
-    for i in range(1000):
+    for i in range(40000):
         tree = nested_tree()
         string = nested_to_string(tree)
         infix = nested_to_infix(tree)
         prefix = nested_to_prefix(tree)
-        row = {'string': string, 'infix': infix, 'prefix': prefix}
+        row = {'prefix': prefix, 'equation': string}
         L.append(row)
     return L
 
 
 def make_dataframe():
-    d = {'string': ['What is 1 - 2'], 'infix': ['1-2'], 'prefix': ['- 1 2']}
+    d = { 'prefix': ['- 1 2'],  'equation': ['What is 1 - 2']}
     df = pd.DataFrame(data=d)
     df.append(d, ignore_index=True)
     df = df.append(gen_output(), ignore_index=True)
     return df
 
 
-make_dataframe()
+df = make_dataframe()
+
+print(df)

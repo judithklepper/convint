@@ -87,7 +87,7 @@ def generate_tree(operators, numbers):
 
 def gen_output():
     L = []
-    for i in range(1000):
+    for i in range(40000):
         tree = generate_datum()
         string = tree_to_sentence(tree)
         infix = tree_to_infix(tree)

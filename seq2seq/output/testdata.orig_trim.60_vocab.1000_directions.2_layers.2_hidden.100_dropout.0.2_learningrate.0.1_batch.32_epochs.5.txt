@@ -1,0 +1,1238 @@
+Starting Training 
+Read 80003 sentence pairs 
+Read 80003 sentence pairs 
+Train pairs: 64003Test pairs: 16000Counted Words -> Trimmed Vocabulary Sizes (w/ EOS and SOS tags):prefix, 65 -> 68equation, 29 -> 32 
+
+Random Train Pair: ('how many is five added with 7?', '+ 5 7') 
+
+Random Test Pair: ('what is three multiplied by 7?', '* 3 7') 
+
+Current mem usage: 0.0 
+Encoder and Decoder Created
+Current mem usage: 0.3682304 
+Number of epochs 5 
+Iter: 1 
+Leaning Rate: 0.1 
+Time: 0h 0m 46s 
+Train Loss: 1.5863960922956446 
+Test Loss: 1.3052170675595602 
+
+ 				> i would like to know what is seven - 8? 
+ 				= - 7 8 
+ 				< * (+ 1 6 <EOS> 
+
+ 				> i would like to know what is eight * eight? 
+ 				= * 8 8 
+ 				< * 1 1 <EOS> 
+
+ 				> i would like to know what is ten + three? 
+ 				= + 10 3 
+ 				< + (+ 1 3 <EOS> 
+
+ 				> how many is 7 times five? 
+ 				= * 7 5 
+ 				< + (+ 1) 1) 1 <EOS> 
+
+ 				> what is nine multiplied by two times 3? 
+ 				= * (* 9 2) 3 
+ 				< * (/ 10) 5) 6 <EOS> 
+
+ 				> i would like to know what is three extracted by 10? 
+ 				= - 3 10 
+ 				< * (+ 1 1) 10 <EOS> 
+
+ 				> i want to calculate 1 multiplied by 8? 
+ 				= * 1 8 
+ 				< * 6 1 <EOS> 
+
+ 				> i want to calculate three * eight? 
+ 				= * 3 8 
+ 				< + 1 1 <EOS> 
+
+ 				> what is three / 2 times two? 
+ 				= * (/ 3 2) 2 
+ 				< / (/ 10) 10) 6 <EOS> 
+
+ 				> what is 8 multiplied by 10 extracted by four? 
+ 				= - (* 8 10) 4 
+ 				< * (/ 6 4) 1 <EOS> 
+
+ 				> what is six divided by eight? 
+ 				= / 6 8 
+ 				< / (+ 6 6 <EOS> 
+
+ 				> i would like to know what is 5 added with six? 
+ 				= + 5 6 
+ 				< + (+ 1 1 <EOS> 
+
+ 				> i want to calculate 5 added with six extracted by nine? 
+ 				= - (+ 5 6) 9 
+ 				< * (/ 1 4) 1 <EOS> 
+
+ 				> i want to calculate 8 + nine plus five? 
+ 				= + (+ 8 9) 5 
+ 				< + (+ 3 1) 1 <EOS> 
+
+ 				> i would like to know what is 7 times eight? 
+ 				= * 7 8 
+ 				< * (+ 1 1) 9 <EOS> 
+
+ 				> i would like to know what is four + 6? 
+ 				= + 4 6 
+ 				< + 1 1 <EOS> 
+
+ 				> what is three multiplied by six? 
+ 				= * 3 6 
+ 				< * (+ 3 1) 8 <EOS> 
+
+ 				> i want to calculate one extracted by nine? 
+ 				= - 1 9 
+ 				< * 6 1 <EOS> 
+
+ 				> i want to calculate 8 plus six? 
+ 				= + 8 6 
+ 				< + (+ 3 6 <EOS> 
+
+ 				> i want to calculate three added with 3 multiplied by two? 
+ 				= * (+ 3 3) 2 
+ 				< * (/ 3 1) 9 <EOS> 
+
+ 				> i want to calculate 4 divided by four added with 2? 
+ 				= + (/ 4 4) 2 
+ 				< * (/ 3 5) 9 <EOS> 
+
+ 				> i would like to know what is eight minus one extracted by one? 
+ 				= - (- 8 1) 1 
+ 				< * (/ 6 4) <EOS> 
+
+ 				> what is ten divided by nine? 
+ 				= / 10 9 
+ 				< / (+ 3 6 <EOS> 
+
+ 				> what is 5 divided by six? 
+ 				= / 5 6 
+ 				< / (/ 1) 10) 1 <EOS> 
+
+ 				> i would like to know what is nine extracted by two + two? 
+ 				= + (- 9 2) 2 
+ 				< * (/ 6 4) 1 <EOS> 
+
+ 				> i want to calculate nine extracted by seven extracted by four? 
+ 				= - (- 9 7) 4 
+ 				< * (/ 6 4) 10 <EOS> 
+
+ 				> how many is two plus seven? 
+ 				= + 2 7 
+ 				< + 1 1) 1 <EOS> 
+
+ 				> what is two multiplied by five? 
+ 				= * 2 5 
+ 				< * (+ 6 10) <EOS> 
+
+ 				> i want to calculate four minus 10 added with nine? 
+ 				= + (- 4 10) 9 
+ 				< + (/ 3 1) 1 <EOS> 
+
+ 				> how many is two added with seven? 
+ 				= + 2 7 
+ 				< + 1 1 <EOS> 
+
+ 				> how many is seven - five? 
+ 				= - 7 5 
+ 				< * (+ 1) 1) 1 <EOS> 
+
+ 				> what is 2 extracted by two? 
+ 				= - 2 2 
+ 				< * 6 6 <EOS> 
+
+ 				> how many is 10 minus four? 
+ 				= - 10 4 
+ 				< * 6 6 <EOS> 
+
+ 				> i want to calculate five plus 8? 
+ 				= + 5 8 
+ 				< + 1 1 <EOS> 
+
+ 				> i would like to know what is 6 * eight? 
+ 				= * 6 8 
+ 				< * 1 1 <EOS> 
+
+ 				> what is three * seven? 
+ 				= * 3 7 
+ 				< + (+ 3 6 <EOS> 
+
+ 				> i would like to know what is 4 plus four? 
+ 				= + 4 4 
+ 				< + 7 1 <EOS> 
+
+ 				> i would like to know what is 9 / 6? 
+ 				= / 9 6 
+ 				< * (+ 3 1) 1 <EOS> 
+
+ 				> what is four extracted by ten plus 7? 
+ 				= + (- 4 10) 7 
+ 				< * (/ 1) 5) 6 <EOS> 
+
+ 				> how many is 5 * 7 extracted by 6? 
+ 				= - (* 5 7) 6 
+ 				< * (/ 1) 5) 6 <EOS> 
+
+ 				> how many is one / eight? 
+ 				= / 1 8 
+ 				< / 6 1) <EOS> 
+
+ 				> how many is 6 divided by 10 added with one? 
+ 				= + (/ 6 10) 1 
+ 				< * (/ 3 5) 9 <EOS> 
+
+ 				> how many is nine extracted by eight? 
+ 				= - 9 8 
+ 				< * 1 1 <EOS> 
+
+ 				> i want to calculate eight multiplied by 6 - 8? 
+ 				= - (* 8 6) 8 
+ 				< * (/ 6 4) 6 <EOS> 
+
+ 				> i want to calculate 3 / nine? 
+ 				= / 3 9 
+ 				< * (+ 3 10) 9 <EOS> 
+
+ 				> i would like to know what is two plus eight extracted by 10? 
+ 				= - (+ 2 8) 10 
+ 				< * (/ 6 4) 10 <EOS> 
+
+ 				> how many is two - 8? 
+ 				= - 2 8 
+ 				< * 1 1 <EOS> 
+
+ 				> how many is six - 6 / 2? 
+ 				= / (- 6 6) 2 
+ 				< * (/ 10) 10) 6 <EOS> 
+
+ 				> what is 9 divided by ten extracted by 8? 
+ 				= - (/ 9 10) 8 
+ 				< * (/ 3 5) 8 <EOS> 
+
+ 				> how many is 7 multiplied by four? 
+ 				= * 7 4 
+ 				< * 6 3 <EOS> 
+
+ 				> what is 10 minus 8? 
+ 				= - 10 8 
+ 				< * 6 6 <EOS> 
+
+ 				> how many is 6 plus 1? 
+ 				= + 6 1 
+ 				< * (+ 1) 1) 6 <EOS> 
+
+ 				> how many is 1 plus 3? 
+ 				= + 1 3 
+ 				< + 1 3 <EOS> 
+
+ 				> i want to calculate seven extracted by 3? 
+ 				= - 7 3 
+ 				< * (+ 1 6 <EOS> 
+
+ 				> i want to calculate ten / 9 minus 10? 
+ 				= - (/ 10 9) 10 
+ 				< * (/ 10) 10) 6 <EOS> 
+
+ 				> i would like to know what is three multiplied by 10? 
+ 				= * 3 10 
+ 				< * (+ 1 6 <EOS> 
+
+ 				> what is 5 + 1? 
+ 				= + 5 1 
+ 				< + 1 3 <EOS> 
+
+ 				> i want to calculate seven + 1? 
+ 				= + 7 1 
+ 				< + (+ 3 1) <EOS> 
+
+ 				> how many is 1 multiplied by four? 
+ 				= * 1 4 
+ 				< * 6 1 <EOS> 
+
+ 				> what is 2 added with 7? 
+ 				= + 2 7 
+ 				< + 1 1 <EOS> 
+Iter: 2 
+Leaning Rate: 0.1 
+Time: 0h 1m 37s 
+Train Loss: 1.079610920071601 
+Test Loss: 0.9681534767150876 
+
+ 				> how many is 5 divided by one minus ten? 
+ 				= - (/ 5 1) 10 
+ 				< - (/ 6 6) 5 <EOS> 
+
+ 				> i would like to know what is 2 added with three? 
+ 				= + 2 3 
+ 				< + 3 3 <EOS> 
+
+ 				> how many is 9 minus five? 
+ 				= - 9 5 
+ 				< * 10 5 <EOS> 
+
+ 				> what is 9 divided by eight plus eight? 
+ 				= + (/ 9 8) 8 
+ 				< + (/ 3 6) 5 <EOS> 
+
+ 				> how many is 2 plus three + six? 
+ 				= + (+ 2 3) 6 
+ 				< + (+ 9) 3) 3 <EOS> 
+
+ 				> i want to calculate 5 / six divided by 8? 
+ 				= / (/ 5 6) 8 
+ 				< / (/ 2 6) 5 <EOS> 
+
+ 				> how many is eight / six plus one? 
+ 				= + (/ 8 6) 1 
+ 				< + (/ 6) 6) 3 <EOS> 
+
+ 				> what is eight divided by 10 / three? 
+ 				= / (/ 8 10) 3 
+ 				< / (/ 6) 6) 3 <EOS> 
+
+ 				> i would like to know what is two + 7? 
+ 				= + 2 7 
+ 				< + (+ 3 5 <EOS> 
+
+ 				> i want to calculate two - nine multiplied by three? 
+ 				= * (- 2 9) 3 
+ 				< * (/ 6 6) 3 <EOS> 
+
+ 				> i want to calculate 10 / seven - nine? 
+ 				= - (/ 10 7) 9 
+ 				< - (- 6 6) 5 <EOS> 
+
+ 				> i want to calculate five extracted by ten times three? 
+ 				= * (- 5 10) 3 
+ 				< - (- 6 3) 3 <EOS> 
+
+ 				> what is 7 - six? 
+ 				= - 7 6 
+ 				< - (- 10) 10) 2 <EOS> 
+
+ 				> how many is 8 multiplied by 1? 
+ 				= * 8 1 
+ 				< * (+ 3 10) 3 <EOS> 
+
+ 				> how many is seven + 3? 
+ 				= + 7 3 
+ 				< + (+ 3 3 <EOS> 
+
+ 				> i want to calculate 6 added with ten? 
+ 				= + 6 10 
+ 				< * (+ 3 2 <EOS> 
+
+ 				> how many is four minus 2? 
+ 				= - 4 2 
+ 				< - 6 6 <EOS> 
+
+ 				> what is five multiplied by 3? 
+ 				= * 5 3 
+ 				< * (+ 3 3) 2 <EOS> 
+
+ 				> what is one times 1 - six? 
+ 				= - (* 1 1) 6 
+ 				< - (- 6) 6) 6 <EOS> 
+
+ 				> how many is eight plus two multiplied by 1? 
+ 				= * (+ 8 2) 1 
+ 				< * (* 6 6) 2 <EOS> 
+
+ 				> i would like to know what is 8 - ten + 4? 
+ 				= + (- 8 10) 4 
+ 				< + (+ 3 3) 3 <EOS> 
+
+ 				> what is 6 divided by 3 multiplied by ten? 
+ 				= * (/ 6 3) 10 
+ 				< * (/ 6 6) 10 <EOS> 
+
+ 				> i want to calculate five * 3? 
+ 				= * 5 3 
+ 				< * (+ 3 3 <EOS> 
+
+ 				> i want to calculate four - 8 multiplied by 1? 
+ 				= * (- 4 8) 1 
+ 				< * (/ 6 6) 2 <EOS> 
+
+ 				> how many is two minus 9 / three? 
+ 				= / (- 2 9) 3 
+ 				< (/ (/ 6) 6) 3 <EOS> 
+
+ 				> i would like to know what is nine extracted by 2 multiplied by ten? 
+ 				= * (- 9 2) 10 
+ 				< * (* 8 6) 5 <EOS> 
+
+ 				> i want to calculate 7 - two extracted by 2? 
+ 				= - (- 7 2) 2 
+ 				< - (- 2 6) 2 <EOS> 
+
+ 				> how many is five plus 4 added with 6? 
+ 				= + (+ 5 4) 6 
+ 				< + (+ 3 3) 3 <EOS> 
+
+ 				> how many is 4 extracted by 3? 
+ 				= - 4 3 
+ 				< - 6 6 <EOS> 
+
+ 				> what is ten / four added with 10? 
+ 				= + (/ 10 4) 10 
+ 				< + (/ 3 6) 7 <EOS> 
+
+ 				> how many is four extracted by 5? 
+ 				= - 4 5 
+ 				< - 2 2 <EOS> 
+
+ 				> how many is eight - 10 minus three? 
+ 				= - (- 8 10) 3 
+ 				< - (- 6 6) 2 <EOS> 
+
+ 				> i would like to know what is four plus 3 minus three? 
+ 				= - (+ 4 3) 3 
+ 				< - (- 3 3) 2 <EOS> 
+
+ 				> how many is 1 divided by three divided by 6? 
+ 				= / (/ 1 3) 6 
+ 				< / (/ 3 9) 3 <EOS> 
+
+ 				> i want to calculate three * seven * three? 
+ 				= * (* 3 7) 3 
+ 				< * (* 6 3) 3 <EOS> 
+
+ 				> i want to calculate two times 9? 
+ 				= * 2 9 
+ 				< * 2 5 <EOS> 
+
+ 				> how many is one - 1 plus 5? 
+ 				= + (- 1 1) 5 
+ 				< + (- 3 3) 5 <EOS> 
+
+ 				> i would like to know what is four * 10 multiplied by ten? 
+ 				= * (* 4 10) 10 
+ 				< * (* 8 6) 2 <EOS> 
+
+ 				> i would like to know what is two / 4 - 8? 
+ 				= - (/ 2 4) 8 
+ 				< - (- 2 6) 5 <EOS> 
+
+ 				> what is 10 multiplied by 5? 
+ 				= * 10 5 
+ 				< * 10 9 <EOS> 
+
+ 				> i would like to know what is seven times 9? 
+ 				= * 7 9 
+ 				< * 10 5 <EOS> 
+
+ 				> how many is 7 + four times eight? 
+ 				= * (+ 7 4) 8 
+ 				< * (+ 3 3) 5 <EOS> 
+
+ 				> i want to calculate 7 / five? 
+ 				= / 7 5 
+ 				< / (+ 3 3 <EOS> 
+
+ 				> i want to calculate nine minus 5? 
+ 				= - 9 5 
+ 				< - 6 10 <EOS> 
+
+ 				> how many is 3 added with four? 
+ 				= + 3 4 
+ 				< + 3 5 <EOS> 
+
+ 				> how many is four times 4 times one? 
+ 				= * (* 4 4) 1 
+ 				< * (* 6 6) 3 <EOS> 
+
+ 				> how many is eight + 4 plus 4? 
+ 				= + (+ 8 4) 4 
+ 				< + (+ 3 9) 7 <EOS> 
+
+ 				> what is 7 / five? 
+ 				= / 7 5 
+ 				< / 3 10) <EOS> 
+
+ 				> how many is four minus one? 
+ 				= - 4 1 
+ 				< - (- 6 6 <EOS> 
+
+ 				> i would like to know what is 10 + four? 
+ 				= + 10 4 
+ 				< + 9 4 <EOS> 
+
+ 				> how many is 5 * 5 + 9? 
+ 				= + (* 5 5) 9 
+ 				< + (/ 3 9) 5 <EOS> 
+
+ 				> i want to calculate 5 plus 6? 
+ 				= + 5 6 
+ 				< + (+ 3 3 <EOS> 
+
+ 				> i want to calculate 7 plus 2 times 10? 
+ 				= * (+ 7 2) 10 
+ 				< * (* 6 3) 3 <EOS> 
+
+ 				> i would like to know what is four / 7? 
+ 				= / 4 7 
+ 				< / (+ 3 9 <EOS> 
+
+ 				> i want to calculate nine divided by eight divided by three? 
+ 				= / (/ 9 8) 3 
+ 				< / (/ 3 6) 7 <EOS> 
+
+ 				> how many is 9 + ten? 
+ 				= + 9 10 
+ 				< + (+ 3 3 <EOS> 
+
+ 				> i would like to know what is eight + 8? 
+ 				= + 8 8 
+ 				< + 9 9 <EOS> 
+
+ 				> what is one divided by seven times 1? 
+ 				= * (/ 1 7) 1 
+ 				< * (/ 6 6) 3 <EOS> 
+
+ 				> how many is seven * three? 
+ 				= * 7 3 
+ 				< * (+ 3 10) 2 <EOS> 
+
+ 				> i would like to know what is ten divided by ten divided by two? 
+ 				= / (/ 10 10) 2 
+ 				< / (/ 2 6) 2 <EOS> 
+Iter: 3 
+Leaning Rate: 0.1 
+Time: 0h 2m 28s 
+Train Loss: 0.8242160905202229 
+Test Loss: 0.6685718351999927 
+
+ 				> i would like to know what is three multiplied by 8? 
+ 				= * 3 8 
+ 				< * 3 8 <EOS> 
+
+ 				> i would like to know what is 2 divided by 6 times seven? 
+ 				= * (/ 2 6) 7 
+ 				< * (/ 6 6) 2 <EOS> 
+
+ 				> how many is 9 * 1? 
+ 				= * 9 1 
+ 				< * 9 3 <EOS> 
+
+ 				> i would like to know what is ten - 8? 
+ 				= - 10 8 
+ 				< - 10 8 <EOS> 
+
+ 				> i want to calculate 4 divided by nine divided by six? 
+ 				= / (/ 4 9) 6 
+ 				< / (/ 5 6) 6 <EOS> 
+
+ 				> i want to calculate seven divided by five minus ten? 
+ 				= - (/ 7 5) 10 
+ 				< - (/ 6 6) 10 <EOS> 
+
+ 				> how many is eight divided by nine? 
+ 				= / 8 9 
+ 				< / 8 9 <EOS> 
+
+ 				> i would like to know what is 1 plus 2? 
+ 				= + 1 2 
+ 				< + 6 2 <EOS> 
+
+ 				> how many is three divided by eight / 6? 
+ 				= / (/ 3 8) 6 
+ 				< (/ (/ 6 6) 1 <EOS> 
+
+ 				> what is 6 multiplied by four? 
+ 				= * 6 4 
+ 				< * 6 9 <EOS> 
+
+ 				> i would like to know what is 7 divided by six? 
+ 				= / 7 6 
+ 				< / (+ 3 6 <EOS> 
+
+ 				> i would like to know what is one * 4? 
+ 				= * 1 4 
+ 				< * 1 8 <EOS> 
+
+ 				> how many is eight divided by 5 times eight? 
+ 				= * (/ 8 5) 8 
+ 				< * (/ 8 8) <EOS> 
+
+ 				> how many is six added with one? 
+ 				= + 6 1 
+ 				< + (+ 6 6 <EOS> 
+
+ 				> i would like to know what is nine extracted by nine? 
+ 				= - 9 9 
+ 				< - 4 8 <EOS> 
+
+ 				> what is six / three? 
+ 				= / 6 3 
+ 				< / 6 3) 1 <EOS> 
+
+ 				> i would like to know what is ten minus 7? 
+ 				= - 10 7 
+ 				< - 10 2 <EOS> 
+
+ 				> i want to calculate nine times 7? 
+ 				= * 9 7 
+ 				< * (+ 3 6 <EOS> 
+
+ 				> i would like to know what is four added with six? 
+ 				= + 4 6 
+ 				< + (+ 2 4) 2 <EOS> 
+
+ 				> i want to calculate 6 - 9 extracted by ten? 
+ 				= - (- 6 9) 10 
+ 				< - (- 2 2) 10 <EOS> 
+
+ 				> i want to calculate 8 + nine plus five? 
+ 				= + (+ 8 9) 5 
+ 				< + (+ 9 9) 8 <EOS> 
+
+ 				> what is 6 * two + two? 
+ 				= + (* 6 2) 2 
+ 				< + (* 6 1) 4 <EOS> 
+
+ 				> how many is six minus one added with five? 
+ 				= + (- 6 1) 5 
+ 				< + (- 6 3) 4 <EOS> 
+
+ 				> what is four minus ten? 
+ 				= - 4 10 
+ 				< - 10 6 <EOS> 
+
+ 				> how many is 9 divided by ten? 
+ 				= / 9 10 
+ 				< / 8 10 8 <EOS> 
+
+ 				> what is 9 / 3? 
+ 				= / 9 3 
+ 				< / 9 9) 3 <EOS> 
+
+ 				> how many is 3 * 2 * four? 
+ 				= * (* 3 2) 4 
+ 				< * (* 6 6) 4 <EOS> 
+
+ 				> i want to calculate 2 * 3 added with one? 
+ 				= + (* 2 3) 1 
+ 				< + (* 3 7) 3 <EOS> 
+
+ 				> i want to calculate eight minus 9 minus 6? 
+ 				= - (- 8 9) 6 
+ 				< - (- 8 4) 6 <EOS> 
+
+ 				> how many is 4 - nine / three? 
+ 				= / (- 4 9) 3 
+ 				< / (/ 9) 7) 1 <EOS> 
+
+ 				> what is one plus four extracted by nine? 
+ 				= - (+ 1 4) 9 
+ 				< - (+ 1 2) 8 <EOS> 
+
+ 				> i want to calculate ten times 7? 
+ 				= * 10 7 
+ 				< * 10 10 <EOS> 
+
+ 				> i want to calculate 7 * three? 
+ 				= * 7 3 
+ 				< * (+ 3 6 <EOS> 
+
+ 				> i would like to know what is 2 + ten? 
+ 				= + 2 10 
+ 				< + 10 10 <EOS> 
+
+ 				> how many is one multiplied by five * ten? 
+ 				= * (* 1 5) 10 
+ 				< * (* 6 6) 10 <EOS> 
+
+ 				> i want to calculate ten multiplied by four + 7? 
+ 				= + (* 10 4) 7 
+ 				< + (* 10 10) 7 <EOS> 
+
+ 				> how many is ten * 7 plus nine? 
+ 				= + (* 10 7) 9 
+ 				< + (* 10 10) <EOS> 
+
+ 				> i would like to know what is four extracted by three added with 8? 
+ 				= + (- 4 3) 8 
+ 				< + (- 2 2) 8 <EOS> 
+
+ 				> i want to calculate seven multiplied by two + 10? 
+ 				= + (* 7 2) 10 
+ 				< + (* 6 1) 10 <EOS> 
+
+ 				> i want to calculate four - ten? 
+ 				= - 4 10 
+ 				< - 10 10 <EOS> 
+
+ 				> what is five plus nine? 
+ 				= + 5 9 
+ 				< + 5 8 <EOS> 
+
+ 				> how many is eight * 2? 
+ 				= * 8 2 
+ 				< * 8 2 <EOS> 
+
+ 				> how many is three divided by ten extracted by seven? 
+ 				= - (/ 3 10) 7 
+ 				< - (/ 6 6) 2 <EOS> 
+
+ 				> i would like to know what is eight added with one? 
+ 				= + 8 1 
+ 				< + 8 6 <EOS> 
+
+ 				> how many is 1 / 3 times 4? 
+ 				= * (/ 1 3) 4 
+ 				< * (/ 6 6) 4 <EOS> 
+
+ 				> i would like to know what is six times seven minus 1? 
+ 				= - (* 6 7) 1 
+ 				< - (* 6 1) 6 <EOS> 
+
+ 				> what is 7 * 2? 
+ 				= * 7 2 
+ 				< * 10 6 <EOS> 
+
+ 				> what is seven / eight? 
+ 				= / 7 8 
+ 				< / 1 1 <EOS> 
+
+ 				> how many is four plus six * 10? 
+ 				= * (+ 4 6) 10 
+ 				< * (* 10 10) 10 <EOS> 
+
+ 				> what is 4 added with six extracted by 3? 
+ 				= - (+ 4 6) 3 
+ 				< - (+ 5 4) 6 <EOS> 
+
+ 				> how many is eight times 8? 
+ 				= * 8 8 
+ 				< * 8 8 <EOS> 
+
+ 				> i want to calculate 6 / one - 7? 
+ 				= - (/ 6 1) 7 
+ 				< (/ (/ 6 6) 5 <EOS> 
+
+ 				> how many is 6 divided by 9? 
+ 				= / 6 9 
+ 				< / 6 6 <EOS> 
+
+ 				> what is eight added with 2 / two? 
+ 				= / (+ 8 2) 2 
+ 				< / (+ 9 9) 1 <EOS> 
+
+ 				> what is six divided by 6 added with three? 
+ 				= + (/ 6 6) 3 
+ 				< + (/ 6 6) 3 <EOS> 
+
+ 				> i want to calculate one / 2? 
+ 				= / 1 2 
+ 				< / 6 1 <EOS> 
+
+ 				> i want to calculate 4 added with three? 
+ 				= + 4 3 
+ 				< + (+ 2 6 <EOS> 
+
+ 				> how many is 9 multiplied by 6? 
+ 				= * 9 6 
+ 				< * (+ 10 10) 1 <EOS> 
+
+ 				> what is nine - one + three? 
+ 				= + (- 9 1) 3 
+ 				< + (- 9) 7) 6 <EOS> 
+
+ 				> how many is one multiplied by four / 3? 
+ 				= / (* 1 4) 3 
+ 				< / (/ 1 10) 1 <EOS> 
+Iter: 4 
+Leaning Rate: 0.1 
+Time: 0h 3m 19s 
+Train Loss: 0.43817951040466685 
+Test Loss: 0.25154057033856697 
+
+ 				> what is 2 divided by 4 / 10? 
+ 				= / (/ 2 4) 10 
+ 				< / (/ 2 2) 10 <EOS> 
+
+ 				> what is nine minus nine plus ten? 
+ 				= + (- 9 9) 10 
+ 				< + (- 9 9) 10 <EOS> 
+
+ 				> i would like to know what is 9 + 6? 
+ 				= + 9 6 
+ 				< + 9 6 <EOS> 
+
+ 				> i would like to know what is 5 divided by 3 plus five? 
+ 				= + (/ 5 3) 5 
+ 				< + (/ 5 5) 5 <EOS> 
+
+ 				> how many is ten divided by 10? 
+ 				= / 10 10 
+ 				< / 10 10 <EOS> 
+
+ 				> i would like to know what is two minus 2 multiplied by seven? 
+ 				= * (- 2 2) 7 
+ 				< * (- 2 2) 7 <EOS> 
+
+ 				> i want to calculate nine + five times 5? 
+ 				= * (+ 9 5) 5 
+ 				< * (+ 5 5) 5 <EOS> 
+
+ 				> what is seven / one? 
+ 				= / 7 1 
+ 				< / 7 1 1 <EOS> 
+
+ 				> i want to calculate ten + 8? 
+ 				= + 10 8 
+ 				< + 10 8 <EOS> 
+
+ 				> what is four times nine added with three? 
+ 				= + (* 4 9) 3 
+ 				< + (* 9 9) 3 <EOS> 
+
+ 				> how many is 5 / five divided by one? 
+ 				= / (/ 5 5) 1 
+ 				< / (/ 5 5) 1 <EOS> 
+
+ 				> i would like to know what is 10 times 1 + 8? 
+ 				= + (* 10 1) 8 
+ 				< + (* 10 10) 9 <EOS> 
+
+ 				> i would like to know what is eight + six added with 4? 
+ 				= + (+ 8 6) 4 
+ 				< + (+ 8 5) 4 <EOS> 
+
+ 				> i want to calculate 7 minus seven? 
+ 				= - 7 7 
+ 				< - 7 7 <EOS> 
+
+ 				> i want to calculate 4 + 3? 
+ 				= + 4 3 
+ 				< + (+ 4 3 <EOS> 
+
+ 				> i want to calculate 7 divided by eight? 
+ 				= / 7 8 
+ 				< / 7 8 <EOS> 
+
+ 				> i would like to know what is five * one? 
+ 				= * 5 1 
+ 				< * 5 6 <EOS> 
+
+ 				> i want to calculate two added with nine plus 6? 
+ 				= + (+ 2 9) 6 
+ 				< + (+ 2 10) 6 <EOS> 
+
+ 				> i would like to know what is 9 extracted by 8? 
+ 				= - 9 8 
+ 				< - 4 8 <EOS> 
+
+ 				> i want to calculate three / 6 divided by 8? 
+ 				= / (/ 3 6) 8 
+ 				< / (/ 3 6) 8 <EOS> 
+
+ 				> i would like to know what is five times 6 divided by 7? 
+ 				= / (* 5 6) 7 
+ 				< / (* 5 5) 7 <EOS> 
+
+ 				> i want to calculate one divided by 7? 
+ 				= / 1 7 
+ 				< / 1 1 7 <EOS> 
+
+ 				> how many is 2 divided by one / 3? 
+ 				= / (/ 2 1) 3 
+ 				< / (/ 1 1) 3 <EOS> 
+
+ 				> how many is eight plus four? 
+ 				= + 8 4 
+ 				< + 8 8 <EOS> 
+
+ 				> i want to calculate seven / 10 divided by eight? 
+ 				= / (/ 7 10) 8 
+ 				< / (/ 7 7) <EOS> 
+
+ 				> how many is six plus ten added with two? 
+ 				= + (+ 6 10) 2 
+ 				< + (+ 1 10) 2 <EOS> 
+
+ 				> what is eight + six? 
+ 				= + 8 6 
+ 				< + 8 6 <EOS> 
+
+ 				> i would like to know what is ten / ten / six? 
+ 				= / (/ 10 10) 6 
+ 				< / (/ 10 10) 6 <EOS> 
+
+ 				> what is 5 / ten / 8? 
+ 				= / (/ 5 10) 8 
+ 				< / (/ 6 6) 8 <EOS> 
+
+ 				> how many is 2 divided by seven divided by ten? 
+ 				= / (/ 2 7) 10 
+ 				< / (/ 2 7) 10 <EOS> 
+
+ 				> i would like to know what is six - 8 * six? 
+ 				= * (- 6 8) 6 
+ 				< * (- 6 6) 6 <EOS> 
+
+ 				> i would like to know what is 3 + ten? 
+ 				= + 3 10 
+ 				< + 3 10 <EOS> 
+
+ 				> what is ten * ten minus two? 
+ 				= - (* 10 10) 2 
+ 				< - (* 10 10) 2 <EOS> 
+
+ 				> how many is 2 + 10? 
+ 				= + 2 10 
+ 				< + 2 10 <EOS> 
+
+ 				> how many is nine - 7 divided by 10? 
+ 				= / (- 9 7) 10 
+ 				< / (/ 9 10) 10 <EOS> 
+
+ 				> how many is three times 6? 
+ 				= * 3 6 
+ 				< * 3 6 <EOS> 
+
+ 				> i would like to know what is two divided by 4 divided by 8? 
+ 				= / (/ 2 4) 8 
+ 				< / (- 4 5) 8 <EOS> 
+
+ 				> i want to calculate nine * 9? 
+ 				= * 9 9 
+ 				< * 9 9 <EOS> 
+
+ 				> i want to calculate seven / seven * three? 
+ 				= * (/ 7 7) 3 
+ 				< * (/ 7 7) 3 <EOS> 
+
+ 				> how many is 7 divided by three / six? 
+ 				= / (/ 7 3) 6 
+ 				< / (/ 3 7) 6 <EOS> 
+
+ 				> i want to calculate 1 - 7? 
+ 				= - 1 7 
+ 				< - 1 7 <EOS> 
+
+ 				> how many is two divided by 10 * 7? 
+ 				= * (/ 2 10) 7 
+ 				< * (/ 10 10) 7 <EOS> 
+
+ 				> i want to calculate ten plus one? 
+ 				= + 10 1 
+ 				< + 10 1 <EOS> 
+
+ 				> i would like to know what is 3 plus ten? 
+ 				= + 3 10 
+ 				< + 3 10 <EOS> 
+
+ 				> i would like to know what is 3 plus 8 times two? 
+ 				= * (+ 3 8) 2 
+ 				< * (+ 5 5) 2 <EOS> 
+
+ 				> how many is three plus 4 - seven? 
+ 				= - (+ 3 4) 7 
+ 				< - (+ 3 7) 7 <EOS> 
+
+ 				> how many is five + nine extracted by two? 
+ 				= - (+ 5 9) 2 
+ 				< - (+ 5 5) 2 <EOS> 
+
+ 				> i want to calculate 5 minus 5? 
+ 				= - 5 5 
+ 				< - 5 5 <EOS> 
+
+ 				> how many is 1 - six? 
+ 				= - 1 6 
+ 				< - 1 6 <EOS> 
+
+ 				> i want to calculate ten added with ten times 8? 
+ 				= * (+ 10 10) 8 
+ 				< * (+ 10 10) 8 <EOS> 
+
+ 				> what is two / 6 divided by ten? 
+ 				= / (/ 2 6) 10 
+ 				< / (/ 2 6) 10 <EOS> 
+
+ 				> how many is 4 added with two divided by six? 
+ 				= / (+ 4 2) 6 
+ 				< / (+ 4 2) 6 <EOS> 
+
+ 				> how many is 9 plus two times three? 
+ 				= * (+ 9 2) 3 
+ 				< * (+ 9 9) 3 <EOS> 
+
+ 				> what is 3 divided by 3 * 8? 
+ 				= * (/ 3 3) 8 
+ 				< * (/ 3 3) 8 <EOS> 
+
+ 				> how many is 8 times seven? 
+ 				= * 8 7 
+ 				< * 8 5 <EOS> 
+
+ 				> i would like to know what is 6 minus two? 
+ 				= - 6 2 
+ 				< - 6 1 <EOS> 
+
+ 				> i want to calculate 8 / five? 
+ 				= / 8 5 
+ 				< / 8 5 <EOS> 
+
+ 				> i would like to know what is 5 - 10 minus 6? 
+ 				= - (- 5 10) 6 
+ 				< - (- 5 2) 6 <EOS> 
+
+ 				> what is 4 plus ten extracted by 7? 
+ 				= - (+ 4 10) 7 
+ 				< - (+ 4 10) 7 <EOS> 
+
+ 				> i would like to know what is 7 divided by one? 
+ 				= / 7 1 
+ 				< / 7 1 <EOS> 
+Iter: 5 
+Leaning Rate: 0.01 
+Time: 0h 4m 10s 
+Train Loss: 0.22739456759889937 
+Test Loss: 0.2091387640039124 
+
+ 				> i want to calculate two / eight? 
+ 				= / 2 8 
+ 				< / 2 8 <EOS> 
+
+ 				> i want to calculate 1 times six minus seven? 
+ 				= - (* 1 6) 7 
+ 				< - (* 1 6) 7 <EOS> 
+
+ 				> what is eight * 6 / 3? 
+ 				= / (* 8 6) 3 
+ 				< / (* 8) 6 3 <EOS> 
+
+ 				> i would like to know what is eight + 1? 
+ 				= + 8 1 
+ 				< + 8 2 <EOS> 
+
+ 				> i would like to know what is one divided by 3? 
+ 				= / 1 3 
+ 				< / 1 3 <EOS> 
+
+ 				> how many is 7 / 5? 
+ 				= / 7 5 
+ 				< / 7 5 <EOS> 
+
+ 				> i would like to know what is 6 / ten? 
+ 				= / 6 10 
+ 				< / 6 10 <EOS> 
+
+ 				> how many is eight times eight / ten? 
+ 				= / (* 8 8) 10 
+ 				< / (* 8 10) 10 <EOS> 
+
+ 				> how many is eight minus eight added with eight? 
+ 				= + (- 8 8) 8 
+ 				< + (- 8 8) 8 <EOS> 
+
+ 				> what is 1 plus ten extracted by ten? 
+ 				= - (+ 1 10) 10 
+ 				< - (* 1 10) 10 <EOS> 
+
+ 				> i would like to know what is four - six divided by 9? 
+ 				= / (- 4 6) 9 
+ 				< / (- 4 5) 9 <EOS> 
+
+ 				> i would like to know what is 2 multiplied by 1? 
+ 				= * 2 1 
+ 				< * 2 1 <EOS> 
+
+ 				> what is four minus seven - ten? 
+ 				= - (- 4 7) 10 
+ 				< - (- 4 7) 10 <EOS> 
+
+ 				> what is 3 / 10? 
+ 				= / 3 10 
+ 				< / 3 3 <EOS> 
+
+ 				> what is six added with 2? 
+ 				= + 6 2 
+ 				< + 6 2 <EOS> 
+
+ 				> i would like to know what is 3 - five / 7? 
+ 				= / (- 3 5) 7 
+ 				< / (- 5 5) 7 <EOS> 
+
+ 				> i want to calculate nine divided by seven times 1? 
+ 				= * (/ 9 7) 1 
+ 				< * (/ 9 7) 1 <EOS> 
+
+ 				> i would like to know what is nine plus 3 minus 9? 
+ 				= - (+ 9 3) 9 
+ 				< - (+ 9 5) 9 <EOS> 
+
+ 				> what is 1 times four? 
+ 				= * 1 4 
+ 				< * 1 4 <EOS> 
+
+ 				> how many is 5 times 7? 
+ 				= * 5 7 
+ 				< * 5 7 <EOS> 
+
+ 				> i would like to know what is three / eight multiplied by 8? 
+ 				= * (/ 3 8) 8 
+ 				< * (/ 3 5) 8 <EOS> 
+
+ 				> i want to calculate two * ten - 5? 
+ 				= - (* 2 10) 5 
+ 				< - (* 10 10) 5 <EOS> 
+
+ 				> i would like to know what is 9 multiplied by two? 
+ 				= * 9 2 
+ 				< * 9 2 <EOS> 
+
+ 				> i want to calculate three + 10 - 4? 
+ 				= - (+ 3 10) 4 
+ 				< - (+ 3 7) 4 <EOS> 
+
+ 				> how many is 2 divided by 3? 
+ 				= / 2 3 
+ 				< / (- 2 3 <EOS> 
+
+ 				> i want to calculate 8 extracted by six? 
+ 				= - 8 6 
+ 				< - 8 6 <EOS> 
+
+ 				> how many is five divided by seven added with 1? 
+ 				= + (/ 5 7) 1 
+ 				< + (/ 5 7) 1 <EOS> 
+
+ 				> i want to calculate 10 / seven? 
+ 				= / 10 7 
+ 				< / 10 7 <EOS> 
+
+ 				> what is six times 2 - 6? 
+ 				= - (* 6 2) 6 
+ 				< - (* 6 2) 6 <EOS> 
+
+ 				> i would like to know what is six extracted by 9? 
+ 				= - 6 9 
+ 				< - 6 8 <EOS> 
+
+ 				> what is 9 * two? 
+ 				= * 9 2 
+ 				< * 9 2 <EOS> 
+
+ 				> how many is one * one? 
+ 				= * 1 1 
+ 				< * 1 1 <EOS> 
+
+ 				> how many is two / six added with nine? 
+ 				= + (/ 2 6) 9 
+ 				< + (/ 2 6) 9 <EOS> 
+
+ 				> i would like to know what is five + seven? 
+ 				= + 5 7 
+ 				< + 5 7 <EOS> 
+
+ 				> what is 7 added with nine? 
+ 				= + 7 9 
+ 				< + 7 8 <EOS> 
+
+ 				> i would like to know what is 8 divided by 10 extracted by 10? 
+ 				= - (/ 8 10) 10 
+ 				< - (/ 8 10) 10 <EOS> 
+
+ 				> how many is six * one + ten? 
+ 				= + (* 6 1) 10 
+ 				< + (* 6 10) 10 <EOS> 
+
+ 				> how many is 4 / two? 
+ 				= / 4 2 
+ 				< / 4 4) 2 <EOS> 
+
+ 				> i would like to know what is 7 + 1 times 3? 
+ 				= * (+ 7 1) 3 
+ 				< * (+ 7 1) 3 <EOS> 
+
+ 				> what is 8 plus six? 
+ 				= + 8 6 
+ 				< + 8 8) 6 <EOS> 
+
+ 				> how many is three divided by nine? 
+ 				= / 3 9 
+ 				< / 3 9 <EOS> 
+
+ 				> i would like to know what is three times 8 times 1? 
+ 				= * (* 3 8) 1 
+ 				< * (* 3 10) 1 <EOS> 
+
+ 				> how many is 7 / 7? 
+ 				= / 7 7 
+ 				< / 7 3 <EOS> 
+
+ 				> i want to calculate 5 - six? 
+ 				= - 5 6 
+ 				< - 5 6 <EOS> 
+
+ 				> how many is four minus six? 
+ 				= - 4 6 
+ 				< - 4 6 <EOS> 
+
+ 				> what is three added with eight - 10? 
+ 				= - (+ 3 8) 10 
+ 				< - (+ 3 8) 10 <EOS> 
+
+ 				> i would like to know what is 3 / two added with 2? 
+ 				= + (/ 3 2) 2 
+ 				< + (/ 3 6) 2 <EOS> 
+
+ 				> how many is 2 * 9 times one? 
+ 				= * (* 2 9) 1 
+ 				< * (* 2 10) 1 <EOS> 
+
+ 				> i want to calculate five plus 9 minus two? 
+ 				= - (+ 5 9) 2 
+ 				< - (+ 5 4) 2 <EOS> 
+
+ 				> i would like to know what is 5 + 8 divided by 8? 
+ 				= / (+ 5 8) 8 
+ 				< / (+ 5 5) 8 <EOS> 
+
+ 				> what is 4 added with eight? 
+ 				= + 4 8 
+ 				< + (+ 4 4) <EOS> 
+
+ 				> i want to calculate five minus six? 
+ 				= - 5 6 
+ 				< - 5 6 <EOS> 
+
+ 				> how many is 4 / one minus 6? 
+ 				= - (/ 4 1) 6 
+ 				< - (/ 4 1) 1 <EOS> 
+
+ 				> how many is 7 - 4 plus 7? 
+ 				= + (- 7 4) 7 
+ 				< + (- 7 7) 7 <EOS> 
+
+ 				> i want to calculate three / 2? 
+ 				= / 3 2 
+ 				< / 3 6 <EOS> 
+
+ 				> i want to calculate 7 minus 3? 
+ 				= - 7 3 
+ 				< - 7 3 <EOS> 
+
+ 				> what is 5 plus two? 
+ 				= + 5 2 
+ 				< + 5 2 <EOS> 
+
+ 				> i would like to know what is 6 plus three * 9? 
+ 				= * (+ 6 3) 9 
+ 				< * (+ 6 3) 9 <EOS> 
+
+ 				> how many is 2 divided by 7 + nine? 
+ 				= + (/ 2 7) 9 
+ 				< + (/ 2 7) 9 <EOS> 
+
+ 				> how many is ten added with 5? 
+ 				= + 10 5 
+ 				< + 10 5 <EOS> 
